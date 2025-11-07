@@ -1,0 +1,3 @@
+module parandian.io/m1_1
+
+go 1.25.4
