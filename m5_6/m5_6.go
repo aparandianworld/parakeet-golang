@@ -27,7 +27,8 @@ func main() {
 	body, err := io.ReadAll(resp.Body)
 	checkError(err)
 
-	fmt.Println("response body: \n", string(body))
+	content := string(body)
+	fmt.Println("response body: \n", content)
 }
 
 func checkError(err error) {
